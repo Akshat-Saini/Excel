@@ -1,0 +1,42 @@
+This project involves cleaning and preprocessing a raw sales dataset using Microsoft Excel. The objective is to make the data consistent, reliable, and ready for analysis by removing errors, filling gaps, and formatting fields properly.
+
+🛠 Tools Used
+Microsoft Excel
+
+CSV format (from Kaggle sample sales dataset)
+
+✅ Cleaning Tasks Performed
+Removed Duplicates
+
+Used Excel’s built-in Remove Duplicates feature to eliminate redundant rows.
+
+Handled Missing Values
+
+Replaced missing entries in:
+
+STATE, TERRITORY → 'Unknown'
+
+POSTALCODE → '00000'
+
+ADDRESSLINE2 → blank ("")
+
+Standardized Text Fields
+
+Applied LOWER(), PROPER(), and TRIM() to clean:
+
+COUNTRY, STATUS, DEALSIZE
+
+Formatted Dates
+
+Converted ORDERDATE into a consistent dd-mm-yyyy format for Excel compatibility.
+
+Renamed Column Headers
+
+Changed to lowercase and used underscores (e.g., Customer Name → customer_name) for consistency.
+
+Fixed Data Types
+
+Ensured quantityordered and orderlinenumber are integers, and price/sales values are decimal.
+
+## Dataset Used
+- <a herf="https://github.com/Akshat-Saini/Excel/blob/main/cleaned_sales_data_excel_ready.csv>
